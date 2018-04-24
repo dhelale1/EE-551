@@ -21,7 +21,7 @@ with open("UnofficialTranscript.txt") as openfile:
         if bbool:
             print prevline+line1[-3]
             bbool=False
-        if "CAL" in line1 or "CH" in line1 or "E" in line1 or "MA" in line1 or "MGT" in line1 or " PEP" in line1 or "EE" in line1 or "CPE" in line1 or "HSS" in line1 or "PRV" in line1 or "TG" in line1 or "BT" in line1 or "IDE" in line1 or "HMU" in line1 or "HAR" in line1 or "HHS" in line1 or "LSP" in line1 or "HLI" in line1 or "HMU" in line1 or "HPL" in line1 or "COMM" in line1 or "HST" in line1 or "HTH" in line1:
+        if "CAL" in line1 or "CH" in line1 or "E" in line1 or "MA" in line1 or "MGT" in line1 or "PEP" in line1 or "EE" in line1 or "CPE" in line1 or "HSS" in line1 or "PRV" in line1 or "TG" in line1 or "BT" in line1 or "IDE" in line1 or "HMU" in line1 or "HAR" in line1 or "HHS" in line1 or "LSP" in line1 or "HLI" in line1 or "HMU" in line1 or "HPL" in line1 or "COMM" in line1 or "HST" in line1 or "HTH" in line1:
             line2 = ("Class: " + line1[0] + line1[1] + " " + "Grade: " + line1[-3])
             if line1[-3] not in grades:
                 if line1[-2] in grades:
