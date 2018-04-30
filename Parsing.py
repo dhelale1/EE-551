@@ -94,7 +94,7 @@ def scrapeTranscript(openfile):
                 #print line2
                 newlist.append(line2)
         
-        newlist.append("Number of terms taken: " + str(termnumber))
+        newlist.append("Number of terms taken:" + str(termnumber))
 
     return newlist
 
