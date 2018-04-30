@@ -93,7 +93,8 @@ def scrapeTranscript(openfile):
                 line2 = ("Class: " + line1[0] + line1[1] + " " + "Grade: ")
                 #print line2
                 newlist.append(line2)
-
+        
+        newlist.append("Number of terms taken: " + str(termnumber))
 
     return newlist
 
